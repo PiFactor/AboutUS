@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>📚 Уроци по математика</title>
+  <meta name="keywords" content="математика, курсове, СМГ, НВО, матура, ДЗИ, Математика, МатПроект>
+  <meta name="description" content="Обучение по математика от студенти, завършили СМГ с отличен успех. Подготвяме и за изпити, включително НВО-та и ДЗИ-та.">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      margin-left: 3.2vw;
+      font-family: 'Roboto', sans-serif;
+      background: url('Image.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: black;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #zoom-wrapper {
+      width: 100vw;
+      height: 100vh;
+      overflow: auto;
+      transform-origin: top left;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      gap: 1.66vw;
+      padding: 1.66vw;
+      min-width: 1200px;
+      min-height: 700px;
+      box-sizing: border-box;
+      margin-top: 10vh;
+    }
+
+    .content, .content2, .content3 {
+      font-size: 1vw;
+      line-height: 1.8;
+      background: rgba(255, 255, 255, 0.5);
+      padding: 1.25vw;
+      border-radius: 0.83vw;
+      transition: transform 0.5s ease-in-out;
+      border: 2px solid black;
+    }
+
+    .content { width: 20vw; height: 60vh;}
+    .content2 { width: 28vw; height: 60vh; }
+    .content3 { width: 25vw; height: 60vh; }
+
+    .content:hover, .content2:hover, .content3:hover {
+      transform: scale(1.06);
+    }
+
+    .content img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: max(3vw, 3vh);
+    }
+
+    .title {
+      margin-top: 2vh;
+      font-size: 1.1vw;
+      font-family: 'Rock Salt', cursive;
+      font-weight: normal;
+      color: black;
+      margin-bottom: 0.83vw;
+      text-align: center;
+	  font-style: italic;
+      text-decoration: underline;
+    }
+	.title2 {
+      margin-top: 2vh;
+      font-size: 1.1vw;
+      font-family: 'Rock Salt', cursive;
+      font-weight: normal;
+      color: black;
+      margin-bottom: 0.83vw;
+      text-align: center;
+	  font-style: italic;
+    }
+    /* Responsive Design for Mobile */
+    @media (max-aspect-ratio: 1) {
+      body {
+        margin-left: 0vw;
+      }
+
+      .container {
+        flex-direction: column;
+        align-items: center;
+        min-width: auto;
+        margin-top: 0vh;
+      }
+
+      .content, .content2, .content3 {
+        width: 73vw;
+        height: auto;
+        margin: 0 auto 5vw auto;
+        margin-left: 4.5vw;
+        font-size: 3.8vw;
+        padding: 4vw;
+      }
+
+      .content img {
+        width: 100%;
+        height: auto;
+      }
+
+      .title {
+        font-size: 5vw;
+      }
+	  .title2 {
+        font-size: 5vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="zoom-wrapper">
+    <div class="container">
+      <div class="content">
+        <img src="Image.png" alt="Снимката не може да се зареди.">
+        <div class="title">Кои сме ние</div>
+          <p>Ние сме "ПиФактор" - екип от младежи, завършили СМГ с отличен успех. Учим във водещи европейски университети и споделяме своя опит, подготвяйки деца и юноши по математика.</p>
+      </div>
+
+      <div class="content2">
+        <p class="title">Обща информация</p>
+        <p>Предлагаме индивидуални и групови онлайн уроци по математика за ученици. Подготвяме и за следните изпити:</p>
+        <ul>
+          <li>НВО в 7-ми клас</li>
+          <li>НВО в 10-ти клас</li>
+          <li>ДЗИ в 12-ти клас</li>
+        </ul>
+        <p>Уроците са съобразени с нивото и нуждите на ученика, за да се постигне пълно усвояване на материала и отлично представяне в училище или на съответният изпит.</p>
+        <p>Курсът може да бъде с продължителност от цяла учебна година или в съкратен, интензивен вариант от няколко занятия.</p>
+        <p>Свържи се с нас: +359 88 287 6333</p>
+      </div>
+
+      <div class="content3">
+        <p class="title">Възможни часове за урок</p>
+        <ul>
+          <li>Събота – от 9:30 до 18:30</li>
+          <li>Неделя – от 9:30 до 18:30</li>
+        </ul>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Уроците са по 60 минути.</p>
+        <p class="title">Ценоразпис</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Индивидуален урок - 30 лева<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Групов урок - 20 лева на човек<br>
+        <strong><span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;20% отстъпка за братя и сестри</span></strong></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;Плаща се по Revolut, PayPal или в кеш<br><br></p>
+		<p class="title2"><strong><span style="color: red">!!! Teчe 3aпиcвaнetо 3a дoгoдинa !!!</span></strong></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let scale = 1;
+    window.addEventListener('wheel', function(e) {
+      if (e.ctrlKey) {
+        e.preventDefault();
+        scale += e.deltaY * -0.001;
+        scale = Math.min(Math.max(.3, scale), 3);
+        document.getElementById('zoom-wrapper').style.transform = `scale(${scale})`;
+      }
+    }, { passive: false });
+  </script>
+</body>
+</html>
